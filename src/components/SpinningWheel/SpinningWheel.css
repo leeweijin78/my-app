@@ -1,0 +1,40 @@
+.wheel-container {
+  position: relative;
+  width: 300px; /* Diameter of the wheel */
+  height: 300px; /* Diameter of the wheel */
+  margin: auto;
+}
+
+.wheel {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%; /* Make it a circle */
+  border: 2px solid #000;
+  position: absolute;
+  box-sizing: border-box; /* Include border in dimensions */
+  overflow: hidden;
+}
+
+.wheel-segment {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  background: var(--clr);
+  transform-origin: 100% 100%;
+  text-align: center;
+  line-height: 150px; /* Should be half the diameter */
+  clip-path: polygon(0 0, 75% 0, 100% 100%, 0 75%);
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.pointer {
+  position: absolute;
+  top: 45%; /* Move above the wheel */
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 20px solid black;
+  transform: translateX(-50%);
+}

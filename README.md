@@ -68,3 +68,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### To Do List
+
+- [x] 开始指向圆最上方的中间
+- [x] 根据奖品中奖概率抽中对应奖品
+- [x] 中奖弹窗对应奖品
+- [] 指针指向对应奖项中间
+- [x] 没有抽奖次数，抽奖按钮不可点击
+- [x] 未登入，抽奖按钮不可点击
+- [x] 中奖记录，展示自己的中奖奖品，中奖时间
+- [x] 数据通过 mock 模拟动态数据

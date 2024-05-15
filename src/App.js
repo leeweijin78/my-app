@@ -92,7 +92,6 @@ function App() {
           ],
         },
       ];
-      console.log(updatedUser);
       return updatedUser;
     });
   };
